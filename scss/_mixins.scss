@@ -1,0 +1,18 @@
+// CREATE FUNCTIONS
+@mixin tablet {
+    @media all and (min-width: 40rem) {
+        @content;
+    }
+}
+
+@mixin Mainfont(){
+  font-family: Impact, sans-serif;
+}
+
+@mixin Mainfont2(){
+  font-family: 'Damion';
+}
+
+@mixin Mainfont3(){
+    font-family: Arial, sans-serif;
+}
